@@ -4,6 +4,7 @@ package uk.co.cameronhunter.as3.components {
   import flash.media.SoundTransform;
   import flash.net.NetConnection;
   import flash.net.NetStream;
+  import uk.co.cameronhunter.as3.utils.Uri;
 
   public class Video extends flash.media.Video {
 
@@ -20,7 +21,7 @@ package uk.co.cameronhunter.as3.components {
     public function Video(url: String, width: uint, height: uint, autoplay: Boolean = true, loop: Boolean = true, muted: Boolean = true) {
       super(width, height);
 
-      this._url = url;
+      this._url = Uri.isSafe(url);
       this._autoplay = autoplay;
       this._loop = loop;
       this._muted = muted;

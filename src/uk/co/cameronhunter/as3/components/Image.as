@@ -6,11 +6,12 @@ package uk.co.cameronhunter.as3.components {
   import flash.display.DisplayObject;
   import flash.events.Event;
   import flash.net.URLRequest;
+  import uk.co.cameronhunter.as3.utils.Uri;
 
   public class Image extends Sprite {
 
     public function Image(url: String, width: uint, height: uint) {
-      if (!url) return;
+      Uri.isSafe(url);
 
       var loader: Loader = new Loader();
 

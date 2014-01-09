@@ -5,6 +5,9 @@
   "authors": [
     "Cameron Hunter <hello@cameronhunter.co.uk>"
   ],
+  "dependencies": {
+    "as3-utils": "~0.1.0"
+  },
   "ignore": [
     ".gitignore",
     "Gruntfile.js",
