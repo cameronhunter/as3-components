@@ -1,7 +1,7 @@
 {
   "name": "as3-components",
   "description": "A library of reusable actionscript 3 components",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "authors": [
     "Cameron Hunter <hello@cameronhunter.co.uk>"
   ],
