@@ -1,0 +1,13 @@
+{
+  "name": "as3-components",
+  "description": "A library of reusable actionscript 3 components",
+  "version": "1.0.0",
+  "authors": [
+    "Cameron Hunter <hello@cameronhunter.co.uk>"
+  ],
+  "ignore": [
+    ".gitignore",
+    "Gruntfile.js",
+    "package.json"
+  ]
+}
