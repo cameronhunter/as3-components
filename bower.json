@@ -11,6 +11,9 @@
   "ignore": [
     ".gitignore",
     "Gruntfile.js",
-    "package.json"
+    "package.json",
+    "bower_components/",
+    "node_modules/",
+    ".tmp/"
   ]
 }
