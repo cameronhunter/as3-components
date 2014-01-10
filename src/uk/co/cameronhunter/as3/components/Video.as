@@ -62,6 +62,13 @@ package uk.co.cameronhunter.as3.components {
       return _duration;
     }
 
+    public function currentTime(offset: Number = -1): Number {
+      if (offset >= 0) {
+        stream.seek(offset);
+      }
+      return stream.time;
+    }
+
     private function netStatusHandler(e: NetStatusEvent): void {
       switch (e.info.code) {
         case "NetConnection.Connect.Success":
