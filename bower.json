@@ -6,7 +6,7 @@
     "Cameron Hunter <hello@cameronhunter.co.uk>"
   ],
   "dependencies": {
-    "as3-utils": "~0.1.0"
+    "as3-utils": "~0.1.2"
   },
   "ignore": [
     ".gitignore",
